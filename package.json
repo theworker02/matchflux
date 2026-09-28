@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/matchflux",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Match digests and flux fingerprints for local integrity checks.",
+  "bin": {
+    "matchflux": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/matchflux.git"
+  },
+  "homepage": "https://theworker02.github.io/matchflux/",
+  "keywords": [
+    "match",
+    "flux",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
